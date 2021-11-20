@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace TestBranch
 {
-    public partial class fmTestBranch : Form
+    public partial class frForm1 : Form
     {
-        public fmTestBranch()
+        public frForm1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frForm1 frmForm1 = new frForm1();
-            frmForm1.Show();
         }
     }
 }
